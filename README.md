@@ -1,96 +1,41 @@
-<h1 align=center>Hugo PaperMod | <a href="https://adityatelange.github.io/hugo-PaperMod/" rel="nofollow">Demo</a></h1>
 
-<h4 align=center>☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive</h4>
-<br>
+> PaperModx 基于 [PaperMod](https://adityatelange.github.io/hugo-PaperMod/) 做了个性化定制并加了些新特性
 
-> Hugo PaperMod is a theme based on [hugo-paper](https://github.com/nanxiaobei/hugo-paper).
-> The goal of this project is to add more features and customization to the og theme.
+## Features and changes:
 
-The [demo](https://adityatelange.github.io/hugo-PaperMod/) includes a lot of documentation about Installation, Features with a few more stuff. Make sure you visit it, to get an awesome hands-on experience and get to know about the features ...
+可在 [loyayz.com](https://loyayz.com/tags/paper-modx/) 查看这些改动
 
-**ExampleSite** can be found here: [exampleSite](https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite). Demo is built up with [exampleSite](https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite) as source.
+- [调试时不集成 Google Analytics](https://loyayz.com/website/220530-hugo-add-google-analytics/)
+- [代码块显示标题](https://loyayz.com/website/220531-hugo-markdown-codeblock-show-title/)
+- [用新标签页打开外部链接](https://loyayz.com/website/220601-hugo-markdown-open-external-links-in-a-new-tab/)
+- [文章元数据前添加图标](https://loyayz.com/website/220602-hugo-papermod-custom-post-meta/)
+- [文章标题后添加标识](https://loyayz.com/website/220603-hugo-papermod-custom-article-of-list/)
 
-[![Minimum Hugo Version](https://img.shields.io/static/v1?label=min-HUGO-version&message=0.83.0&color=blue&logo=hugo)](https://github.com/gohugoio/hugo/releases/tag/v0.83.0)
-[![Build GH-Pages](https://github.com/adityatelange/hugo-PaperMod/workflows/Build%20GH-Pages/badge.svg)](https://github.com/adityatelange/hugo-PaperMod/deployments/activity_log?environment=github-pages)
-[![GitHub](https://img.shields.io/github/license/adityatelange/hugo-PaperMod)](https://github.com/adityatelange/hugo-PaperMod/blob/master/LICENSE)
-[![hugo-papermod](https://img.shields.io/badge/Hugo--Themes-@PaperMod-blue)](https://themes.gohugo.io/themes/hugo-papermod/)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=adityatelange_hugo-PaperMod&metric=alert_status)](https://sonarcloud.io/dashboard?id=adityatelange_hugo-PaperMod)
-![code-size](https://img.shields.io/github/languages/code-size/adityatelange/hugo-PaperMod)
-[![Discord](https://img.shields.io/discord/971046860317921340?label=Discord)](https://discord.gg/ahpmTvhVmp)
-
----
-
-<p align="center">
-  <kbd><img src="https://user-images.githubusercontent.com/21258296/114303440-bfc0ae80-9aeb-11eb-8cfa-48a4bb385a6d.png" alt="Mockup image" title="Mockup"/></kbd>
-</p>
-
----
-
-## Features/Mods 💥
-
--   Uses Hugo's asset generator with pipelining, fingerprinting, bundling and minification by default.
--   3 Modes:
-    -   [Regular Mode.](https://github.com/adityatelange/hugo-PaperMod/wiki/Features#regular-mode-default-mode)
-    -   [Home-Info Mode.](https://github.com/adityatelange/hugo-PaperMod/wiki/Features#home-info-mode)
-    -   [Profile Mode.](https://github.com/adityatelange/hugo-PaperMod/wiki/Features#profile-mode)
--   Table of Content Generation (newer implementation).
--   Archive of posts.
--   Social Icons (home-info and profile-mode)
--   Social-Media Share buttons on posts.
--   Menu location indicator.
--   Multilingual support. (with language selector)
--   Taxonomies
--   Cover image for each post (with Responsive image support).
--   Light/Dark theme (automatic theme switch a/c to browser theme and theme-switch button).
--   SEO Friendly.
--   Multiple Author support.
--   Search Page with Fuse.js
--   Other Posts suggestion below a post
--   Breadcrumb Navigation
--   Code Block Copy buttons
--   No webpack, nodejs and other dependencies are required to edit the theme.
-
-Read Wiki For More Details => **[PaperMod - Features](https://github.com/adityatelange/hugo-PaperMod/wiki/Features)**
-
----
-
-## Install/Update 📥
-
-Read Wiki For More Details => **[PaperMod - Installation](https://github.com/adityatelange/hugo-PaperMod/wiki/Installation)**
-
----
-
-## Social-Icons/Share-Icons 🖼️
-
-Read Wiki For More Details => **[PaperMod-Icons](https://github.com/adityatelange/hugo-PaperMod/wiki/Icons)**
-
----
-
-## FAQs / How To's Guide 🙋
-
-Read Wiki For More Details => **[PaperMod-FAQs](https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs)**
-
----
-
-## Release Changelog 📃
-
-Release ChangeLog has info about stuff added: **[Releases](https://github.com/adityatelange/hugo-PaperMod/releases)**
-
----
-
-## [Pagespeed Insights (100% ?)](https://pagespeed.web.dev/report?url=https://adityatelange.github.io/hugo-PaperMod/) 👀
-
----
-
-## Special Thanks 🌟
-
--   [**Highlight.js**](https://github.com/highlightjs/highlight.js)
--   [**Fuse.js**](https://github.com/krisk/fuse)
--   [**Feather Icons**](https://github.com/feathericons/feather)
--   [**Simple Icons**](https://github.com/simple-icons/simple-icons)
--   **All Contributors and Supporters**
-
-## Stargazers over time 📈
-
-<kbd>[![Stargazers over time](https://starchart.cc/adityatelange/hugo-PaperMod.svg)](https://starchart.cc/adityatelange/hugo-PaperMod)</kbd>
-
+## 1. 怎么使用本主题
+### 1.1 安装/更新
+#### 1.1.1 方式一（推荐）
+```shell
+# 安装
+git submodule add --depth=1 https://github.com/loyayz/hugo-PaperModx.git themes/PaperModx
+# 更新
+git submodule update --remote --merge
+# 假设你已经安装成功并且将你的仓库推送到远程，重新 clone 你的仓库后需执行这句
+git submodule update --init --recursive --depth=1
+```
+#### 1.2.1 方式二
+```shell
+# 进入你本机中的站点目录
+cd blog
+# 安装
+git clone --depth=1 https://github.com/loyayz/hugo-PaperModx.git themes/PaperModx
+# 更新
+# 进入主题目录
+cd themes/PaperModx
+git pull
+```
+### 1.2 使用
+修改站点配置`config.yml`
+```yml
+theme: "PaperModx"
+```
+其他详细配置请查看 [PaperMod 示例](https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/)

@@ -66,6 +66,8 @@
   <header class="entry-header">
     <h2>
       {{- .Title }}
+      {{- if (eq .Weight 1) }}<sup><span class="x-entry-istop">&nbsp;&nbsp;[置顶]</span></sup>{{- end }}
+      {{- if (.Param "outer") }}<sup><span class="x-entry-isouter">&nbsp;&nbsp;[转载]</span></sup>{{- end }}
       {{- if .Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>{{- end }}
     </h2>
   </header>
