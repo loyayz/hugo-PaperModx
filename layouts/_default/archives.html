@@ -30,6 +30,7 @@
       <div class="archive-entry">
         <h3 class="archive-entry-title">
           {{- .Title | markdownify }}
+          {{- if (.Param "outer") }}<sup><span class="x-entry-isouter">&nbsp;&nbsp;[转载]</span></sup>{{- end }}
           {{- if .Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>{{- end }}
         </h3>
         <div class="archive-meta">

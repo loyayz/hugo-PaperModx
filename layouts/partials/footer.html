@@ -1,18 +1,5 @@
 {{- if not (.Param "hideFooter") }}
-<footer class="footer">
-    {{- if site.Copyright }}
-    <span>{{ site.Copyright | markdownify }}</span>
-    {{- else }}
-    <span>&copy; {{ now.Year }} <a href="{{ "" | absLangURL }}">{{ site.Title }}</a></span>
-    {{- end }}
-    <span>
-        Powered by
-        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
-        <a href="https://github.com/loyayz/hugo-PaperModx/" rel="noopener" target="_blank">PaperModx</a>
-    </span>
-    <span>·&nbsp;<a href="/copyright/">版权说明</a></span>
-    <span>·&nbsp;<a href="/about/">关于我</a></span>
-</footer>
+{{- partial "footer_info.html" . }}
 {{- end }}
 
 {{- if (not site.Params.disableScrollToTop) }}

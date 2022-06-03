@@ -8,8 +8,9 @@
 - [调试时不集成 Google Analytics](https://loyayz.com/website/220530-hugo-add-google-analytics/)
 - [代码块显示标题](https://loyayz.com/website/220531-hugo-markdown-codeblock-show-title/)
 - [用新标签页打开外部链接](https://loyayz.com/website/220601-hugo-markdown-open-external-links-in-a-new-tab/)
-- [文章元数据前添加图标](https://loyayz.com/website/220602-hugo-papermod-custom-post-meta/)
-- [文章标题后添加标识](https://loyayz.com/website/220603-hugo-papermod-custom-article-of-list/)
+- [文章元数据前添加图标](https://loyayz.com/website/220602-hugo-papermodx-post-meta/)
+- [文章标题后添加标识](https://loyayz.com/website/220603-hugo-papermodx-article-of-list/)
+- [拆分页面底部信息，方便自定义](https://loyayz.com/website/220604-hugo-papermodx-separate-footer/)
 
 ## 1. 怎么使用本主题
 ### 1.1 安装/更新
