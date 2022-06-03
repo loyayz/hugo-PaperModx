@@ -155,3 +155,9 @@
 {{- template "partials/templates/twitter_cards.html" . }}
 {{- template "partials/templates/schema_json.html" . }}
 {{- end -}}
+
+{{- /* random image */}}
+{{- if (.Site.Params.randomImgOpt.enable | default true) }}
+{{- $randomimg := resources.Get "js/randomimg.js" | js.Build (dict "params" (dict "opt" .Site.Params.randomImgOpt)) | resources.Minify }}
+<script defer crossorigin="anonymous" src="{{ $randomimg.RelPermalink }}"></script>
+{{- end -}}

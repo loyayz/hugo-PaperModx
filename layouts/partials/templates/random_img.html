@@ -1,0 +1,23 @@
+<img loading="lazy"
+     {{ with .id }}id="{{.}}"{{ end }}
+     {{ with .class }}class="{{.}}"{{ end }}
+     {{ with .title }}title="{{.}}"{{ end }}
+     {{ with .alt }}alt="{{.}}"{{ end }}
+     {{ with .width }}width="{{.}}"{{ end }}
+     {{ with .height }}height="{{.}}"{{ end }}
+/>
+{{- if .id }}
+<script>
+    window.addEventListener('load', () => {
+        {{- $topics := .topics | default site.Params.randomImgOpt.defaultTopics }}
+        const $img = document.getElementById({{ .id }});
+        {{- if and .width .height }}
+        window.randomImg.random($img,'{{ $topics }}',{{ .width }},{{ .height }});
+        {{- else if .width }}
+        window.randomImg.random($img,'{{ $topics }}',{{ .width }});
+        {{- else }}
+        window.randomImg.random($img,'{{ $topics }}');
+        {{- end }}
+    });
+</script>
+{{- end }}

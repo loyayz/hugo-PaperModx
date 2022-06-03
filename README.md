@@ -11,6 +11,7 @@
 - [文章元数据前添加图标](https://loyayz.com/website/220602-hugo-papermodx-post-meta/)
 - [文章标题后添加标识](https://loyayz.com/website/220603-hugo-papermodx-article-of-list/)
 - [拆分页面底部信息，方便自定义](https://loyayz.com/website/220604-hugo-papermodx-separate-footer/)
+- [随机显示图片](https://loyayz.com/website/220605-hugo-papermodx-template-for-random-image/)
 
 ## 1. 怎么使用本主题
 ### 1.1 安装/更新
