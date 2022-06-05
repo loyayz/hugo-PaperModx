@@ -38,3 +38,11 @@
   font-size: 14px;
   color: #2db7f5;
 }
+
+.x-random-img {
+  border-radius: 0 !important;
+}
+
+.post-content .x-random-img {
+  margin: 1rem auto;
+}
