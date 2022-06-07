@@ -12,6 +12,7 @@
 - [文章标题后添加标识](https://loyayz.com/website/220603-hugo-papermodx-article-of-list/)
 - [拆分页面底部信息，方便自定义](https://loyayz.com/website/220604-hugo-papermodx-separate-footer/)
 - [模板：随机显示图片](https://loyayz.com/website/220606-hugo-papermodx-template-for-random-image/)
+- [区分列表和文章页的导航文字](https://loyayz.com/website/220607-hugo-papermodx-distinguish-nav/)
 
 ## 1. 怎么使用本主题
 ### 1.1 安装/更新
