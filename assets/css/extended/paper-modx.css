@@ -46,3 +46,7 @@
 .post-content .x-random-img {
   margin: 1rem auto;
 }
+
+.post-footer .breadcrumbs {
+  justify-content: flex-end;
+}
