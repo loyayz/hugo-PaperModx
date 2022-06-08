@@ -26,4 +26,18 @@
     <ul id="searchResults" aria-label="search results"></ul>
 </div>
 
+{{- if not (.Param "hideTags")}}
+<h2 style="margin-top: 32px">{{- (.Param "tagsTitle") | default "tags" }}</h2>
+<ul class="terms-tags">
+    {{- range $name, $value := .Site.Taxonomies.tags }}
+    {{- $count := .Count }}
+    {{- with site.GetPage (printf "/tags/%s" $name) }}
+    <li>
+        <a href="{{ .Permalink }}">{{ .Name }} <sup><strong><sup>{{ $count }}</sup></strong></sup> </a>
+    </li>
+    {{- end }}
+    {{- end }}
+</ul>
+{{- end }}
+
 {{- end }}{{/* end main */}}
