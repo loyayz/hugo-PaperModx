@@ -19,6 +19,10 @@
       </svg>
     </a>
     {{- end }}
+
+    {{- if (.Param "ShowStatInSectionTermList" | default true) }}
+    <sup class="x-page-stat">{{- partial "stat.html" . }}</sup>
+    {{- end }}
   </h1>
   {{- if .Description }}
   <div class="post-description">

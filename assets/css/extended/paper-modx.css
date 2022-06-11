@@ -50,3 +50,8 @@
 .post-footer .breadcrumbs {
   justify-content: flex-end;
 }
+
+.x-page-stat {
+  color: var(--secondary);
+  font-size: 14px;
+}
