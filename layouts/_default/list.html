@@ -21,7 +21,7 @@
     {{- end }}
 
     {{- if (.Param "ShowStatInSectionTermList" | default true) }}
-    <sup class="x-page-stat">{{- partial "stat.html" . }}</sup>
+    <sup class="archive-count">&nbsp;&nbsp;{{- partial "stat.html" . }}</sup>
     {{- end }}
   </h1>
   {{- if .Description }}

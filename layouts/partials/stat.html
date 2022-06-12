@@ -1,14 +1,17 @@
 {{- $scratch := newScratch -}}
 
-{{- $pages := union .RegularPages .Sections -}}
-{{- if .IsHome -}}
-{{- $pages = where site.RegularPages "Type" "in" site.Params.mainSections -}}
+{{- if eq .Kind "pages" -}}
+{{- $scratch.Add "pages" .pages -}}
+{{- else -}}
+{{-   $pages := union .RegularPages .Sections -}}
+{{-   if .IsHome -}}
+{{-     $pages = where site.RegularPages "Type" "in" site.Params.mainSections -}}
+{{-   end -}}
+{{-   $scratch.Add "pages" $pages -}}
 {{- end -}}
 
+{{- $pages := $scratch.Get "pages" -}}
 {{- range $pages -}}
 {{- $scratch.Add "words" .WordCount -}}
 {{- end -}}
-
-{{- $posts := len $pages -}}
-{{- $words := $scratch.Get "words" -}}
-{{- printf "%s 篇 %s 字" ($posts | string) ($words | string) -}}
+{{- printf "%s 篇 %s 字" ((len $pages) | string) (($scratch.Get "words") | string) -}}
