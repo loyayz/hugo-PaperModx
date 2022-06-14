@@ -50,3 +50,7 @@
 .post-footer .breadcrumbs {
   justify-content: flex-end;
 }
+
+.x-post-series {
+  padding: 16px 0;
+}

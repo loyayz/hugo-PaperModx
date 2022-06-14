@@ -9,14 +9,15 @@
 - [代码块显示标题](https://loyayz.com/website/220531-hugo-papermodx-codeblock-show-title/)
 - [用新标签页打开外部链接](https://loyayz.com/website/220601-hugo-papermodx-open-external-links-in-a-new-tab/)
 - [文章元数据前添加图标](https://loyayz.com/website/220602-hugo-papermodx-post-meta/)
-- [文章标题后添加标识](https://loyayz.com/website/220603-hugo-papermodx-article-of-list/)
+- [文章标题后添加标识](https://loyayz.com/website/220603-hugo-papermodx-sign-title-in-list/)
 - [拆分页面底部信息，方便自定义](https://loyayz.com/website/220604-hugo-papermodx-separate-footer/)
 - [模板：随机显示图片](https://loyayz.com/website/220606-hugo-papermodx-template-for-random-image/)
 - [区分列表和文章的导航文字](https://loyayz.com/website/220607-hugo-papermodx-distinguish-nav/)
-- [文章页底部添加面包屑导航](https://loyayz.com/website/220608-hugo-papermodx-breadcrumbs-in-footer/)
+- [文章页底部添加面包屑导航](https://loyayz.com/website/220608-hugo-papermodx-breadcrumbs-in-post-footer/)
 - [搜索页展示标签列表](https://loyayz.com/website/220609-hugo-papermodx-tags-in-search-page/)
 - [搜索页展示系列列表](https://loyayz.com/website/220610-hugo-papermodx-series-in-search-page/)
 - [模板：统计文章篇数和字数](https://loyayz.com/website/220611-hugo-papermodx-template-for-calculate-word-count/)
+- [文章页展示所属系列的文章列表](https://loyayz.com/website/220612-hugo-papermodx-series-in-post-page/)
 
 ## 1. 怎么使用本主题
 ### 1.1 安装/更新
