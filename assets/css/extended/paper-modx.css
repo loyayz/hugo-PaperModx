@@ -54,3 +54,43 @@
 .x-post-series {
   padding: 16px 0;
 }
+
+.x-tabs {
+  margin: 8px 0;
+  display: block;
+  border: 1px solid var(--tertiary);
+  border-radius: 2px;
+}
+
+.x-tabs-nav {
+  position: relative;
+  display: flex;
+  flex: none;
+  background-color: var(--theme);
+  border-bottom: 1px solid var(--tertiary);
+}
+
+.x-tabs-nav-item.active {
+  border-bottom: 1px solid #1890ff;
+}
+
+.x-tabs-nav-item > span {
+  display: block;
+  color: var(--primary);
+  font-size: 16px;
+  padding: 4px 16px;
+}
+
+.x-tabs-nav-item.active > span,
+.x-tabs-nav-item > span:hover {
+  color: #1890ff !important;
+}
+
+.x-tab {
+  display: none;
+  padding: 8px 16px;
+}
+
+.x-tab.active {
+  display: block;
+}

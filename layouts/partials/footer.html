@@ -127,3 +127,39 @@
 {{- $random_image_js := resources.Get "js/random-image.js" | js.Build (dict "params" (dict "opt" .Site.Params.randomImage)) | resources.Minify }}
 <script defer crossorigin="anonymous" src="{{ $random_image_js.RelPermalink }}"></script>
 {{- end -}}
+
+<script>
+    const removeClass = (el, className) => {
+        document.querySelectorAll(el).forEach($el => {
+            $el.classList.remove(className);
+        });
+    };
+
+    const $tabsContent = document.querySelector('.x-tabs-content');
+    const $tabsNav = document.querySelector('.x-tabs-nav');
+
+    document.querySelectorAll('.x-tab').forEach(tab => {
+        const title = tab.getAttribute('title') || 'tab';
+        const nav = document.createElement('div');
+        nav.classList.add('x-tabs-nav-item')
+        nav.innerHTML = '<span>' + title + '</span>';
+        $tabsNav.append(nav);
+    });
+
+    document.querySelectorAll('.x-tabs-nav-item').forEach($navItem => {
+        $navItem.addEventListener('click', e => {
+            e.preventDefault();
+            removeClass('.x-tabs-nav-item', 'active');
+            removeClass('.x-tab', 'active');
+            $navItem.classList.add('active');
+
+            const index = Array.from($navItem.parentNode.children).indexOf($navItem);
+            $tabsContent.children.item(index).classList.add('active');
+        });
+    });
+
+    const $firstNav = $tabsNav.querySelector('.x-tabs-nav-item:first-child');
+    if ($firstNav) {
+        $firstNav.click();
+    }
+</script>
