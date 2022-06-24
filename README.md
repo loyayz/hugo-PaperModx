@@ -19,6 +19,7 @@
 - [模板：统计文章篇数和字数](https://loyayz.com/website/220611-hugo-papermodx-template-for-calculate-word-count/)
 - [文章页展示所属系列的文章列表](https://loyayz.com/website/220612-hugo-papermodx-series-in-post-page/)
 - [模板：多标签页](https://loyayz.com/website/220613-hugo-papermodx-support-tabs/)
+- [允许禁用校验文件完整性](https://loyayz.com/website/220614-hugo-papermodx-allow-disable-integrity/)
 
 ## 1. 怎么使用本主题
 ### 1.1 安装/更新
